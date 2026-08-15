@@ -1,0 +1,16 @@
+initial_list = list([100, 50, 400, 500])
+
+initial_list[1] = 200
+print("Updated (Change):", initial_list)
+
+initial_list.append(600)
+print("Updated (Append):", initial_list)
+
+initial_list.insert(2, 300)
+print("Updated (Insert):", initial_list)
+
+initial_list.remove(600)
+print("Updated (Remove 600):", initial_list)
+
+initial_list.pop(0)
+print("Updated (Remove Index 0):", initial_list)
